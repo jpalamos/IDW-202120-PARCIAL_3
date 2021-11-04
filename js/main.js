@@ -6,7 +6,7 @@ window.onload = () => {
     ['Eduardo Galeano', `Cuando es verdadera, cuando nace de la necesidad de decir, a la voz humana  no hay quien la pare. Si le niegan la boca, ella habla por las manos, o por los  ojos, o por los poros, o por donde sea`],
     ['Mario Benedetti', `Nunca pensé que en la felicidad hubiera tanta tristeza`],
     ['Paulo Coelho', `Las cosas simples son las más extraordinarias y sólo los sabios consiguen verlas`],
-  ]
+  ];
   setInterval(() => {
     countup = countup < poemas.length - 1 ? countup + 1 : 0
     document.getElementById('poemaTitle').innerHTML = poemas[countup][0];
